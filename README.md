@@ -19,7 +19,7 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://chimerical-sopapillas-514f2a.netlify.app)
 
 ## My process
 

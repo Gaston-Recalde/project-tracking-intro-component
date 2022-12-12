@@ -2,38 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
   
-  <title>Frontend Mentor | Project tracking intro component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Project tracking intro component</title>
+  
 </head>
+
 <body>
-  Product
-  Features
-  Pricing
-  Login
 
-  New
-  Monograph Dashboard
+  <header class="header">
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+    <div class="header__logo">
+      <img src="./images/logo.svg" alt="Logo">
+    </div>
 
-  Schedule a demo
-  to see a live preview
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li>Product</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li class="login">Login</li>
+      </ul>
+    </nav>
+
+    <div class="nav__open">
+      <img src="./images/icon-hamburger.svg" alt="Icon hamburger">
+    </div>
+
+    <div class="nav__close">
+      <img src="./images/icon-close.svg" alt="Icon close">
+    </div>
+
+    <div class="header__background"></div>
+    
+  </header>
+
+  <main class="main">
+
+    <div class="hero"></div>
+
+    <div class="info">
+
+      <p class="info__p"><span class="p__span">New</span> Monograph Dashboard</p>
+      <h1 class="info__h1">Powerful insights into your team</h1>
+      <p class="info__p-2">Project planning and time tracking for agile teams</p>
+      <button class="info__button">Schedule a demo</button>
+      <p class="info__p-3">to see a live preview</p>
+    </div>
+
+  </main>
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#"></a>.
+      Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
     </p>
   </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>

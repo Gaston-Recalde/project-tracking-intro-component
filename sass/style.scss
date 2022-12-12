@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+
+$barlow-condensed: 'Barlow Condensed', sans-serif;  //### Headings, Call-to-actions, Navigation
+
+// Colors
+
+// Primary
+
+$red: hsl(0, 100%, 68%);
+
+// Neutral
+
+$very-dark-blue: hsl(230, 29%, 20%);
+$dark-grayish-blue: hsl(230, 11%, 40%);
+$grayish-blue: hsl(231, 7%, 65%);
+$light-grayish-blue: hsl(207, 33%, 95%);
+
+@import 'general';
+@import 'main';
